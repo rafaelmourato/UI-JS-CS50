@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animate</title>
+        <style>
+
+            @keyframes grow { /* onde ele começa, qual as propriedades de estilo e no final, ele cuida do meio */
+                from{ /* de onde eu começo */
+                    font-size: 20px;
+                }
+                to{ /* aonde eu quero chegar */
+                    font-size: 100px;
+                }
+            }
+
+            h1{
+                animation-name: grow; /* nome que eu dei */
+                animation-duration: 2s; /* tempo */
+                animation-fill-mode: forwards; /* para que lado anima */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        
+    </body>
+</html>
